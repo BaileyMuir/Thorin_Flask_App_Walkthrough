@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
+
+    {% for number in list_of_numbers %}
+        <p>{{ number }}</p>
+    {%endfor%}
     <h2>{{ page_title }}</h2>
     <p>
         The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest in
@@ -119,7 +123,7 @@
 			    fought in the Battle of Five Armies, which he survived.</p>
         </div>
         <div class="col-md-5">
-            <img src="https://static.wikia.nocookie.net/lotr/images/8/81/Ori.jpg" alt="">
+            <img src="https://static.wikia.nocookie.net/lotr/images/8/81/Ori.jpeg" alt="">
         </div>
     </div>
 
